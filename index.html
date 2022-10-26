@@ -166,19 +166,20 @@
 
 	<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,600 C 0,600 0,300 0,300 C 174.66666666666663,359.20000000000005 349.33333333333326,418.40000000000003 528,410 C 706.6666666666667,401.59999999999997 889.3333333333335,325.6 1042,296 C 1194.6666666666665,266.4 1317.3333333333333,283.2 1440,300 C 1440,300 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="#f4ece3" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
 	
-	<form action="sender.php" method="post">
+	<form action="https://formspree.io/f/moqbkwaa" method="POST">
 		<div class="contact">
 			<h1>Bestellen</h1>	
 			<img class="women" src="Women.png">
 		        <input type="text" class="name" name="name" placeholder="Name" required>
 		        <input type="text" class="phone" name="phone" placeholder="Handynummer" required>
 		        <input type="email" class="email" name="email" placeholder="Email" required>
-		        <textarea class="beschreibung" name="text" id="" cols="30" rows="10" required placeholder="Genaue Beschreibung" ></textarea>
-		        <button type="button" class="send-form">Bestellen</button>
+		        <textarea class="beschreibung" name="message" id="" cols="30" rows="10" required placeholder="Genaue Beschreibung" ></textarea>
+		        <button type="submit" class="send-form">Bestellen</button>
 		        <div class="status"></div> 
 		</div>
 	</form>
 </body>
+
 <script type="text/javascript">
 
 	const toogleSidebar = () => document.body.classList.add("open")
