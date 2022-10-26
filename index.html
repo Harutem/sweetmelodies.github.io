@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sweet Melodies</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+		<nav class="sidebar" id="sidebar">
+			<div class="sidebar-inner">
+				<div class="sidebar-header">
+					<button class="sidebar-burger" onclick="toogleSidebar()"></button>
+					<button class="button2" onclick="toogleSidebar2()"></button>
+
+					<h2>Sweet Melodies</h2>
+				</div>
+				<nav class="sidebar-menu">
+					<button style="margin-top: 10px;" type="button" class="has-border">
+						<img src="https://img.icons8.com/pastel-glyph/64/FFFFFF/cream-coconut-cake.png"/>
+						<span>Kuchen</span>
+					</button>
+				</nav>
+
+				<nav class="sidebar-menu">
+					<button type="button" class="has-border">
+						<img src="https://img.icons8.com/pastel-glyph/64/FFFFFF/birthday-cake-1.png"/>
+						<span>Torte</span>
+					</button>
+				</nav>
+
+
+				<nav class="sidebar-menu">
+					<button type="button" class="has-border">
+						<img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/FFFFFF/external-information-library-tanah-basah-glyph-tanah-basah.png"/>
+						<span>Über uns</span>
+					</button>
+				</nav>
+
+				<nav class="sidebar-menu">
+					<button type="button" class="has-border">
+						<img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/duplicate-contacts.png"/>
+						<span>Kontaktieren</span>
+					</button>
+				</nav>
+			</div>
+		</nav>
+	<div class="header">
+		<h3><button>Bestellen</button></h3>
+		<h1>Sweet Melodies</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+		<img src="Cake1.png" class="cake_main">
+
+		<svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 230" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(244, 236, 227, 1)" offset="0%"></stop><stop stop-color="rgba(244, 236, 227, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,138L10,149.5C20,161,40,184,60,180.2C80,176,100,146,120,145.7C140,146,160,176,180,184C200,192,220,176,240,164.8C260,153,280,146,300,145.7C320,146,340,153,360,141.8C380,130,400,100,420,76.7C440,54,460,38,480,38.3C500,38,520,54,540,84.3C560,115,580,161,600,176.3C620,192,640,176,660,168.7C680,161,700,161,720,149.5C740,138,760,115,780,122.7C800,130,820,169,840,172.5C860,176,880,146,900,118.8C920,92,940,69,960,76.7C980,84,1000,123,1020,138C1040,153,1060,146,1080,134.2C1100,123,1120,107,1140,84.3C1160,61,1180,31,1200,46C1220,61,1240,123,1260,134.2C1280,146,1300,107,1320,111.2C1340,115,1360,161,1380,168.7C1400,176,1420,146,1430,130.3L1440,115L1440,230L1430,230C1420,230,1400,230,1380,230C1360,230,1340,230,1320,230C1300,230,1280,230,1260,230C1240,230,1220,230,1200,230C1180,230,1160,230,1140,230C1120,230,1100,230,1080,230C1060,230,1040,230,1020,230C1000,230,980,230,960,230C940,230,920,230,900,230C880,230,860,230,840,230C820,230,800,230,780,230C760,230,740,230,720,230C700,230,680,230,660,230C640,230,620,230,600,230C580,230,560,230,540,230C520,230,500,230,480,230C460,230,440,230,420,230C400,230,380,230,360,230C340,230,320,230,300,230C280,230,260,230,240,230C220,230,200,230,180,230C160,230,140,230,120,230C100,230,80,230,60,230C40,230,20,230,10,230L0,230Z"></path></svg>
+	</div>
+	<div class="container">
+
+		<h1>Unsere Vorteile</h1>
+		<div class="card_1">
+			<img src="https://img.icons8.com/ios/80/ff7676/natural-food.png"/>
+			<h3>Frische Lebensmittel</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+
+		<div class="card_2">
+			<img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/80/ff7676/external-rating-ecommerce-kmg-design-glyph-kmg-design.png"/>
+			<h3>Zufriedene Kunden</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+
+		<div class="card_3">		
+			<img src="https://img.icons8.com/ios/80/ff7676/best-seller.png"/>
+			<h3>Geschmack und Qualität</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+
+		<!--h3>Frische Lebensmittel</h3>
+		<h3>Geschmack und Qualität</h3-->
+	</div>
+
+		<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,700 C 0,700 0,350 0,350 C 145.7333333333333,382.5333333333333 291.4666666666666,415.06666666666666 449,388 C 606.5333333333334,360.93333333333334 775.8666666666668,274.26666666666665 943,258 C 1110.1333333333332,241.73333333333332 1275.0666666666666,295.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#f4ece3" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
+	<div class="container_2">
+
+		<h1>Unsere Torte</h1>
+		<div data-tabs class="tabs">    
+   <div class="tab">
+      <input type="radio" name="tabgroup" id="tab-1" checked>
+      <label for="tab-1">Hochzeitstorte</label>
+      <div class="tab__content">
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+
+      </div> 
+   </div>
+
+   <div class="tab">
+      <input type="radio" name="tabgroup" id="tab-2">
+      <label for="tab-2" style="margin-left: 50px;">Geburtstagstorte</label>
+      <div class="tab__content">
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      </div> 
+   </div>
+
+   <div class="tab">
+      <input type="radio" name="tabgroup" id="tab-3">
+      <label for="tab-3" style="margin-left: 50px;">Kindertorte</label>
+      <div class="tab__content">
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+
+
+      </div> 
+   </div>
+
+   <div class="tab">
+      <input type="radio" name="tabgroup" id="tab-4">
+      <label for="tab-4" style="margin-left: 50px;">Tauftorte</label>
+      <div class="tab__content">
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+      	<div class="card_tort"></div>
+
+      </div> 
+   </div>
+	</div>
+		<h3><button>Mehr Erfahren</button></h3>
+</div>
+
+
+	<svg class="svg_wave" width="100%" height="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,700 C 0,700 0,350 0,350 C 135.14285714285714,386.92857142857144 270.2857142857143,423.85714285714283 388,386 C 505.7142857142857,348.14285714285717 605.9999999999999,235.5 731,235 C 856.0000000000001,234.5 1005.7142857142858,346.14285714285717 1128,384 C 1250.2857142857142,421.85714285714283 1345.142857142857,385.92857142857144 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#f4ece3" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 350)"></path></svg>
+
+	<div class="best_sales">
+		<h1>Kuchen unter Angebot</h1>
+		<div class="best_sale_cakes">
+	      	<div class="card_tort">
+	      		<div class="angebot"><p>15%</p></div>
+	      	</div>
+
+	      	<div class="card_tort">
+	      		<div class="angebot"><p>25%</p></div>
+	      	</div>
+
+	      	<div class="card_tort">
+		      	<div class="angebot"><p>30%</p></div>
+	      	</div>
+
+	      	<div class="card_tort">
+    		  	<div class="angebot"><p>49%</p></div>
+	      	</div>
+		</div>
+		<h3><button>Mehr Erfahren</button></h3>
+	</div>
+
+	<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,600 C 0,600 0,300 0,300 C 174.66666666666663,359.20000000000005 349.33333333333326,418.40000000000003 528,410 C 706.6666666666667,401.59999999999997 889.3333333333335,325.6 1042,296 C 1194.6666666666665,266.4 1317.3333333333333,283.2 1440,300 C 1440,300 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="#f4ece3" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
+	
+	<form action="sender.php" method="post">
+		<div class="contact">
+			<h1>Bestellen</h1>	
+			<img class="women" src="Women.png">
+		        <input type="text" class="name" name="name" placeholder="Name" required>
+		        <input type="text" class="phone" name="phone" placeholder="Handynummer" required>
+		        <input type="email" class="email" name="email" placeholder="Email" required>
+		        <textarea class="beschreibung" name="text" id="" cols="30" rows="10" required placeholder="Genaue Beschreibung" ></textarea>
+		        <button type="button" class="send-form">Bestellen</button>
+		        <div class="status"></div> 
+		</div>
+	</form>
+</body>
+<script type="text/javascript">
+
+	const toogleSidebar = () => document.body.classList.add("open")
+	const toogleSidebar2 = () => document.body.classList.remove("open")  
+
+(function($, document) {
+    
+      // get tallest tab__content element
+      let height = -1;
+
+		$('.tab__content').each(function() {
+			height = height > $(this).outerHeight() ? height : $(this).outerHeight();
+         $(this).css('position', 'absolute');
+		});
+      
+      // set height of tabs + top offset
+		$('[data-tabs]').css('min-height', height + 40 + 'px');
+   
+}(jQuery, document));
+
+</script>
+</html>
