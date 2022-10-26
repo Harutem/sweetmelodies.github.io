@@ -21,9 +21,6 @@ jQuery(document).ready(function () {
                     form.find('.status').html('форма отправлена успешно');
                     //$('#myModal').modal('show') // для бутстрапа
     			},
-    			error:	 function() {
-    			     form.find('.status').html('серверная ошибка');
-    			}
     		});
     	}
     });
